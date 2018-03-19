@@ -1,0 +1,24 @@
+{
+  "name": "scrape-reddit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "request-promise": "^4.2.2",
+    "save": "^2.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbradthompson/scraping-reddit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbradthompson/scraping-reddit/issues"
+  },
+  "homepage": "https://github.com/gbradthompson/scraping-reddit#readme"
+}

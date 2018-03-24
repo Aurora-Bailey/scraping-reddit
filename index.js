@@ -1,5 +1,4 @@
 const rp = require('request-promise')
-const fs = require('fs')
 const auth = require('./auth')
 const mongo = require('./mongodb')
 

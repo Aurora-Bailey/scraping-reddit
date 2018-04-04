@@ -32,7 +32,7 @@ class Auth {
   }
 
   _valid () {
-    return (Date.now() - this._now) / 1000 < this._token.expires_in
+    return (Date.now() - this._now) / 1000 < this._token.expires_in - 60 // 60 second padding
   }
 
   _authenticate () {
